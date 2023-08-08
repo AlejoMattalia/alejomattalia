@@ -1,0 +1,22 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+body{
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+:root {
+	$mainColor: #B8860B;
+	$mainColorLight: #5767aa;
+	$darkColor:  #000000;
+	$textColor: #fff;
+}
+
+.link{
+	text-decoration: none;
+}

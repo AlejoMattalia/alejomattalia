@@ -1,0 +1,118 @@
+.div-occupy-space {
+    width: 270px;
+    .container-navBar {
+        width: 270px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-right: 1px solid rgb(189, 189, 189);
+        // color:#dfdfdf;
+
+        img {
+            width: 180px;
+        }
+
+        .icon-briefcase {
+            display: none;
+        }
+
+        .container-info {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            padding-left: 10px;
+
+            .container-icon {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: #000;
+
+                    p {
+                        font-size: 20px;
+                        font-weight: 600;
+                        letter-spacing: 1px;
+                    }
+
+                    .icon {
+                        font-size: 30px;
+                        position: relative;
+                        top: 3px;
+                    }
+                }
+            }
+        }
+
+        p {
+            font-size: 50px;
+            letter-spacing: 5px;
+            margin-left: 10px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .div-occupy-space {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 994px) {
+    .div-occupy-space {
+        width: 120px;
+        .container-navBar {
+            width: 120px;
+
+            img {
+                display: none;
+            }
+
+            .icon-briefcase {
+                font-size: 50px;
+                display: inline-block;
+                margin-left: 3px;
+            }
+
+            .container-info {
+
+                .container-icon {
+
+                    a {
+
+                        p {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            p {
+                letter-spacing: 0px;
+                margin-left: 0px;
+                font-size: 49px;
+
+                span {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 700px) {
+    .div-occupy-space {
+        display: none;
+        .container-navBar {
+            display: none;
+        }
+    }
+}

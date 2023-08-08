@@ -1,0 +1,72 @@
+.container-history {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba($color: #000000, $alpha: 0.9);
+    padding: 25px;
+
+    .img-close {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+            width: 120px;
+        }
+
+        .icon {
+            font-size: 40px;
+        }
+    }
+}
+
+.contianer-history {
+    width: 100%;
+    .container-card-history {
+        background-image: linear-gradient(165deg, #b68f78 0, #ac8675 10%, #9e7b71 20%, #8c6f6a 30%, #766260 40%, #5c5353 50%, #434545 60%, #2e3937 70%, #1d2f2b 80%, #10261f 90%, #062016 100%);
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        border: rgb(80, 80, 80) 1px solid;
+        width: 400px;
+        height: 90%;
+        padding: 20px;
+        border-radius: 10px;
+
+        .container-progressBar{
+            display: flex;
+            gap: 2px;
+            margin-bottom: 10px;
+        }
+
+        .container-img-title{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            img{
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+            }
+            p{
+                color: #fff;
+                font-weight: 600;
+            }
+        }
+
+        .container-carrousel{
+            width: 100%;
+            height: 68vh;
+            
+            img{
+                width: 100%;
+                min-height: 350px;
+                max-height: 430px;
+            }
+        }
+    }
+
+}

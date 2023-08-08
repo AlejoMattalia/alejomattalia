@@ -1,0 +1,40 @@
+div {
+    .div_language {
+        width: 20px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .img-language {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+.icono-mode-dark{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+@media (max-width: 851px){
+    div {
+        .div_language {
+            .img-language {
+                width: 20px;
+                height: 20px;
+            }
+
+            .p_language{
+                font-size: 12px !important;
+            }
+        }
+    }
+
+    .icono-mode-dark{
+        width: 18px;
+        height: 18px;
+    }
+}

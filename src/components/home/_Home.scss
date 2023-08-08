@@ -1,0 +1,22 @@
+.container-home{
+    width: 100%;
+    padding: 40px 8%;
+}
+
+@media (max-width: 1258px){
+    .container-home{
+        padding: 40px 6%;
+    }
+}
+
+@media (max-width: 650px){
+    .container-home{
+        padding: 40px 3%;
+    }
+}
+
+@media (max-width: 520px){
+    .container-home{
+        padding: 20px 3%;
+    }
+}
