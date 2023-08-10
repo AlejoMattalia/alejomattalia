@@ -5,6 +5,8 @@ import { technologies } from "../../../../apis/technologies.js";
 import { Link } from "react-router-dom";
 import { ProgressBarContext } from "../../../../context/ProgressBarContext";
 import { useContext } from "react";
+import { motion } from "framer-motion";
+
 
 export function CarouselState() {
 
@@ -42,9 +44,9 @@ export function CarouselState() {
                 style={{ color: "#000" }}
               >
                 <div className="container-state" onClick={()=> setFirstHistory(true)}>
-                  <div className="container-img">
+                  <motion.div className="container-img" whileHover={{ scale: 1.01}}>
                     <img src={el.img} alt="" />
-                  </div>
+                  </motion.div>
                   <p>{el.name}</p>
                 </div>
               </Link>

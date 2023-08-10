@@ -15,7 +15,7 @@ export const technologies = [
     name: "CSS",
     image: [
       "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691449991/porfolio/css-tips.PNG.img_qq4abd.png",
-      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691450128/porfolio/51graM2SdzL_nrdsvn.jpg",
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691502200/css-3_1_rzplb0.png",
       "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691450145/porfolio/como-poner-una-imagen-de-fondo-en-una-pagina-html_ndntca.webp"
     ]
   },
@@ -23,15 +23,20 @@ export const technologies = [
     id: 3,
     img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691075671/porfolio/js_1_dswbzk.png",
     name: "JavaScript",
+    image: [
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691503543/bbva-open4u-herramientas-programacion-javascript_tmjy4y.png",
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691503446/JavaScript_code_oze6pn.png",
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691509188/usosjavascript_zibq7n.webp"
+    ]
   },
   {
     id: 4,
     img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691077230/porfolio/sass_gyxxfi.png",
     name: "SASS",
     image: [
-      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691463843/porfolio/5988bb48ade41_o3vp3g.jpg",
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691464783/porfolio/1_Jv5ZV6Kn2j5nwYw26kqdeA_l2lttn.jpg",
       "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691464609/porfolio/sass_jbuhs9.png",
-      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691464783/porfolio/1_Jv5ZV6Kn2j5nwYw26kqdeA_l2lttn.jpg"
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691463843/porfolio/5988bb48ade41_o3vp3g.jpg",
     ]
   },
   {
@@ -49,12 +54,19 @@ export const technologies = [
     img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691079118/porfolio/git_tiaupq.png",
     name: "Git",
     image: [
-      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691467303/porfolio/rixan4h4z8y94eq89som_a9vjlb.webp"
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691468098/porfolio/git-comandos-basicos_psdayl.png",
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691468614/porfolio/git_xptkfe.png",
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691467303/porfolio/rixan4h4z8y94eq89som_a9vjlb.webp",
     ]
   },
   {
     id: 7,
     img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691078485/porfolio/github_a0mu6m.png",
     name: "GitHub",
+    image: [
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691504118/github_1_azeuoy.png",
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691504324/github_2_xbsekh.png",
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691504561/github_3_flrngh.png"
+    ]
   },
 ];

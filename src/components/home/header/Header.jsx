@@ -4,9 +4,9 @@ import { ButtonDarkMode } from "./elementsHeader/ButtonDarkMode";
 import { ButtonLanguageEnglish } from "./elementsHeader/ButtonLanguageEnglish";
 import { CarouselState } from "./elementsHeader/Carousel";
 import { ModalImage } from "./elementsHeader/ModalImage";
+import { motion } from "framer-motion";
 
 export function Header() {
-
   const [modalIsOpen, setModalISOpen] = useState(false);
 
   return (
@@ -15,30 +15,45 @@ export function Header() {
         <img
           src="https://res.cloudinary.com/dp0zorgdp/image/upload/v1691034298/porfolio/imagenmia_xmusne.jpg"
           alt="imagen Alejo Mattalia"
-          onClick={()=> setModalISOpen(true)}
+          onClick={() => setModalISOpen(true)}
         />
 
-        <ModalImage setModalISOpen={setModalISOpen} modalIsOpen={modalIsOpen}/>
+        <ModalImage setModalISOpen={setModalISOpen} modalIsOpen={modalIsOpen} />
 
         <div className="conatiner-info-header">
-          <div className="user-darkMood">
+          <motion.div
+            className="user-darkMood"
+            initial={{ y: -1500 }}
+            animate={{ y: 0 }}
+            transition={{ duration: 4 }}
+          >
             <p>Alejo Mattalia</p>
 
             <div className="container-func">
               <ButtonDarkMode />
               <ButtonLanguageEnglish />
             </div>
-          </div>
+          </motion.div>
 
-          <div className="proyects-frontEnd">
+          <motion.div
+            className="proyects-frontEnd"
+            initial={{ x: 1500 }}
+            animate={{ x: 0 }}
+            transition={{ duration: 4 }}
+          >
             <p>
               <span>10</span> proyectos
             </p>
             <p>Desarrollador FrontEnd</p>
             <p>Programación</p>
-          </div>
+          </motion.div>
 
-          <div className="container-data">
+          <motion.div
+            className="container-data"
+            initial={{ x: -1500 }}
+            animate={{ x: 0 }}
+            transition={{ duration: 4 }}
+          >
             <p>🅰Alejo Mattalia</p>
             <p>🥧19 Años</p>
             <p>🌆Corral de bustos, Córdoba</p>
@@ -46,7 +61,7 @@ export function Header() {
               ⚽<span>Hobbie</span>: jugar al fútbol
             </p>
             <p>💻Desarrollo web</p>
-          </div>
+          </motion.div>
         </div>
       </div>
 

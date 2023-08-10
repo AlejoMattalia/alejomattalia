@@ -1,15 +1,28 @@
 .container-home{
     width: 100%;
-    padding: 40px 8%;
+    padding: 40px 8% 40px 15%;
 }
 
 @media (max-width: 1258px){
     .container-home{
-        padding: 40px 6%;
+        padding: 40px 8% 40px 12%;
+
     }
 }
 
-@media (max-width: 650px){
+@media (max-width: 891px){
+    .container-home{
+        padding: 40px 8% 40px 8%;
+    }
+}
+
+@media (max-width: 851px){
+    .container-home{
+        padding: 40px 8% 40px 14%;
+    }
+}
+
+@media (max-width: 700px){
     .container-home{
         padding: 40px 3%;
     }
