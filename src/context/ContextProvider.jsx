@@ -8,8 +8,8 @@ export function ContextProvider({ children }) {
   //Colores de material ui
   const theme = createTheme({
     palette: {
-      whiteColor: {
-        main: "rgb(150, 150, 150)", 
+      blackColor: {
+        main: "#000", 
       },
     },
   });

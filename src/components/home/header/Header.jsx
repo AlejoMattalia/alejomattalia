@@ -25,7 +25,7 @@ export function Header() {
             className="user-darkMood"
             initial={{ y: -1500 }}
             animate={{ y: 0 }}
-            transition={{ duration: 4 }}
+            transition={{ duration: 3 }}
           >
             <p>Alejo Mattalia</p>
 
@@ -39,7 +39,7 @@ export function Header() {
             className="proyects-frontEnd"
             initial={{ x: 1500 }}
             animate={{ x: 0 }}
-            transition={{ duration: 4 }}
+            transition={{ duration: 3 }}
           >
             <p>
               <span>10</span> proyectos
@@ -52,7 +52,7 @@ export function Header() {
             className="container-data"
             initial={{ x: -1500 }}
             animate={{ x: 0 }}
-            transition={{ duration: 4 }}
+            transition={{ duration: 3 }}
           >
             <p>🅰Alejo Mattalia</p>
             <p>🥧19 Años</p>

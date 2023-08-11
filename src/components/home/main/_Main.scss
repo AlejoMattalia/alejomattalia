@@ -41,6 +41,16 @@
 
         }
     }
+
+    .container-aboutMe{
+        padding: 20px 150px;
+
+        p{
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+    }
 }
 
 @media ((min-width: 1100px) and (max-width: 1300px)) {

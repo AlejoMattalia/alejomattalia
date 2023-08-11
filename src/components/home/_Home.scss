@@ -1,18 +1,66 @@
 .container-home{
     width: 100%;
-    padding: 40px 8% 40px 15%;
+    padding: 40px 11% 40px 15%;
+    position: relative;
+    left: 50px;
+}
+
+@media(max-width: 1300px){
+    .container-home{
+        padding: 40px 16% 40px 15%;
+        left: 85px;
+    }
 }
 
 @media (max-width: 1258px){
     .container-home{
-        padding: 40px 8% 40px 12%;
+        padding: 40px 14% 40px 15%;
+        position: relative;
+        left: 85px;
+    }
+}
+
+@media (max-width: 1200px){
+    .container-home{
+        padding: 40px 14% 40px 15%;
+        position: relative;
+        left: 65px;
+    }
+}
+
+@media (max-width: 1200px){
+    .container-home{
+        padding: 40px 14% 40px 15%;
+        position: relative;
+        left: 45px;
+    }
+}
+
+@media (max-width: 1050px){
+    .container-home{
+        padding: 40px 14% 40px 15%;
+        position: relative;
+        left: 45px;
+    }
+}
+
+@media (max-width: 994px){
+    .container-home{
+        padding: 40px 14% 40px 8%;
 
     }
 }
 
 @media (max-width: 891px){
     .container-home{
-        padding: 40px 8% 40px 8%;
+        padding: 40px 10% 40px 8%;
+        left: 0;
+    }
+}
+
+@media (max-width: 860px){
+    .container-home{
+        padding: 40px 7% 40px 5%;
     }
 }
 
@@ -24,12 +72,12 @@
 
 @media (max-width: 700px){
     .container-home{
-        padding: 40px 3%;
+        padding: 40px 7% 40px 3%;
     }
 }
 
 @media (max-width: 520px){
     .container-home{
-        padding: 20px 3%;
+        padding: 20px 7% 20px 3%;
     }
 }
