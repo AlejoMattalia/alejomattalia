@@ -11,7 +11,6 @@
         flex-direction: column;
         justify-content: space-between;
         border-right: 1px solid rgb(189, 189, 189);
-        // color:#dfdfdf;
 
         img {
             width: 180px;
@@ -68,6 +67,7 @@
 @media (max-width: 994px) {
     .div-occupy-space {
         width: 120px;
+        height: 100px;
         .container-navBar {
             width: 120px;
 

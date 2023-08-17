@@ -6,15 +6,8 @@
 }
 
 body{
-	overflow-x: hidden;
+	overflow-x: hidden !important;
 	overflow-y: auto;
-}
-
-:root {
-	$mainColor: #B8860B;
-	$mainColorLight: #5767aa;
-	$darkColor:  #000000;
-	$textColor: #fff;
 }
 
 .link{

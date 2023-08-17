@@ -7,7 +7,7 @@ export const certifications = [
 
     {
         id: 2,
-        img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691640516/64cd48aef519b0e32c2a4c63_jvqeh0.png",
+        img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692027598/64cd48aef519b0e32c2a4c63_of5o5w.png",
         link: "https://www.coderhouse.com/certificados/64cd48aef519b0e32c2a4c63"
     },
 

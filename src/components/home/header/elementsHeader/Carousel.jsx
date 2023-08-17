@@ -6,11 +6,11 @@ import { Link } from "react-router-dom";
 import { ProgressBarContext } from "../../../../context/ProgressBarContext";
 import { useContext } from "react";
 import { motion } from "framer-motion";
-
+import { DarkModeContext } from "../../../../context/DarkModeContext";
 
 export function CarouselState() {
-
-  const {setFirstHistory} = useContext(ProgressBarContext);
+  const { setFirstHistory } = useContext(ProgressBarContext);
+  const { darkMode } = useContext(DarkModeContext);
 
   const responsive = {
     superLargeDesktop: {
@@ -43,11 +43,24 @@ export function CarouselState() {
                 className="link"
                 style={{ color: "#000" }}
               >
-                <div className="container-state" onClick={()=> setFirstHistory(true)}>
-                  <motion.div className="container-img" whileHover={{ scale: 1.01}}>
+                <div
+                  className="container-state"
+                  onClick={() => setFirstHistory(true)}
+                >
+                  <motion.div
+                    className="container-img"
+                    whileHover={{ scale: 1.01 }}
+                    style={
+                      darkMode
+                        ? {border: "1px solid #2b2b2b"}
+                        : {border: "1px solid #d8d8d8"}
+                    }
+                  >
                     <img src={el.img} alt="" />
                   </motion.div>
-                  <p>{el.name}</p>
+                  <p style={darkMode ? { color: "#fff" } : { color: "#000" }}>
+                    {el.name}
+                  </p>
                 </div>
               </Link>
             );

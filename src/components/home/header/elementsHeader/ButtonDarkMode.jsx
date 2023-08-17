@@ -16,8 +16,8 @@ export function ButtonDarkMode() {
     <>
         {
             darkMode === false  
-            ?<BsFillMoonFill onClick={handleColorMode} className="icono-mode-dark"/>
-            :<BsFillSunFill onClick={handleColorMode} className="icono-mode-dark"/>
+            ?<BsFillMoonFill onClick={handleColorMode} className="icono-mode-dark moon"/>
+            :<BsFillSunFill onClick={handleColorMode} className="icono-mode-dark sun"/>
         }
     </>
   )

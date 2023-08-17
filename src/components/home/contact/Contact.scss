@@ -21,5 +21,163 @@
         input{
             width: 100%;
         }
+
+        .container-message{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+
+            div{
+                padding: 10px;
+                border-radius: 15px;
+                width: 180px;
+                text-align: center;
+
+                p{
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1150px){
+    .container-contact{
+        gap: 100px;
+    }
+}
+
+@media (max-width: 851px){
+    .container-contact{
+        padding-left: 70px;
+    }
+}
+
+@media (max-width: 776px){
+    .container-contact{
+        gap: 70px;
+    }
+}
+
+@media (max-width: 766px){
+    .container-contact{
+        gap: 70px;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 700px){
+    .container-contact{
+        gap: 70px;
+        padding-left: 70px;
+    }
+}
+
+@media (max-width: 635px){
+    .container-contact{
+        gap: 70px;
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 600px){
+    .container-contact{
+        gap: 70px;
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 578px){
+    .container-contact{
+        gap: 70px;
+        padding-left: 30px;
+
+        .container-button{
+            gap: 20px;
+        
+            .button{
+                font-size: 12px;
+                width: 133px;
+            }
+        }
+    }
+}
+
+@media (max-width: 520px){
+    .container-contact{
+        form{
+            width: 180px;
+        }
+    }
+}
+
+@media (max-width: 578px){
+    .container-contact{
+        gap: 50px;
+        padding-left: 30px;
+
+        .container-button{
+            gap: 20px;
+        
+            .button{
+                font-size: 12px;
+                width: 133px;
+            }
+        }
+    }
+}
+
+@media (max-width: 540px){
+    .container-contact{
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+        padding-right: 20px;
+
+        .container-button{
+            width: 100%;
+            justify-content: center;
+        }
+
+        form{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .input{
+                width: 300px;
+            }
+        }
+    }
+}
+
+@media (max-width: 470px){
+    .container-contact{
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 460px){
+    .container-contact{
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 440px){
+    .container-contact{
+        padding-right: 30px;
+    }
+}
+
+
+@media (max-width: 400px){
+    .container-contact{
+        form{
+            .input{
+                width: 250px;
+            }
+        }
     }
 }

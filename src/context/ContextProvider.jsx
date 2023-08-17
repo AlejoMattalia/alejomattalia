@@ -11,6 +11,9 @@ export function ContextProvider({ children }) {
       blackColor: {
         main: "#000", 
       },
+      whiteColor: {
+        main: "#fff"
+      }
     },
   });
 

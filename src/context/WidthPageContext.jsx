@@ -19,7 +19,7 @@ export function WidthPageContextProvider({ children }) {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-
+  
   const data = {
     widthPage
   };

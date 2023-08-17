@@ -1,7 +1,6 @@
 .container-header {
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid rgb(189, 189, 189);
 
     .container-img-info {
         display: flex;
@@ -13,7 +12,6 @@
             height: 150px;
             border-radius: 50%;
             margin-right: 12%;
-            border: 1px solid rgb(189, 189, 189);
         }
 
         .conatiner-info-header {
@@ -84,7 +82,6 @@
             display: flex;
             justify-content: space-around;
             padding: 0px 1%;
-            border-top: 1px solid rgb(189, 189, 189);
 
             div {
                 width: 33%;
@@ -118,7 +115,6 @@
             width: 87px;
             height: 87px;
             border-radius: 50%;
-            border: 1px solid #d8d8d8;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -311,7 +307,7 @@
     .container-carrousel {
         width: 500px;
         position: relative;
-        left: 10px;
+        left: 30px;
     }
 }
 
@@ -517,6 +513,12 @@
 
                 .user-darkMood {
                     width: 90%;
+                }
+
+                .container-data {
+                    p {
+                        margin-right: 15px;
+                    }
                 }
             }
         }

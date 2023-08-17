@@ -51,7 +51,7 @@ export const technologies = [
   },
   {
     id: 6,
-    img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691079118/porfolio/git_tiaupq.png",
+    img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692216712/Git_icon.svg_rkszqn.png",
     name: "Git",
     image: [
       "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691468098/porfolio/git-comandos-basicos_psdayl.png",
@@ -69,4 +69,15 @@ export const technologies = [
       "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691504561/github_3_flrngh.png"
     ]
   },
+
+  {
+    id: 8,
+    img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692138346/firebase_logo_icon_171157_vkonkj.png",
+    name: "Firebase",
+    image: [
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692214691/firebase_imagen_1_rfkwii.png",
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692215100/images_lbunzp.png",
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692215280/firebase_imagen_2_hkao5t.png"
+    ]
+  }
 ];
