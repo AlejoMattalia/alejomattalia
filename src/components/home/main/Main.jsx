@@ -2,7 +2,7 @@ import "./_Main.scss";
 import { FiMonitor } from "react-icons/fi";
 import { PiCertificateBold } from "react-icons/pi";
 import { FaRegCommentDots } from "react-icons/fa";
-import { ContainerImage } from "./elementsMain/containerImage";
+import { ContainerImage } from "./elementsMain/ContainerImage";
 import { proyects } from "../../../apis/proyects";
 import { certifications } from "../../../apis/certifications";
 import { useContext, useEffect, useState } from "react";
