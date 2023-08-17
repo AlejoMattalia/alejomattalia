@@ -88,6 +88,18 @@
             position: relative;
             left: 70px;
         }
+
+        .container-aboutMe{
+            padding: 20px 120px;
+        }
+    }
+}
+
+@media (max-width: 994px){
+    .container-main {
+        .container-aboutMe{
+            padding: 20px 120px;
+        }
     }
 }
 
@@ -96,6 +108,10 @@
         .conatinerImage-grid {
             position: relative;
             left: 30px;
+        }
+
+        .container-aboutMe{
+            padding: 20px 100px;
         }
     }
 }
@@ -147,6 +163,10 @@
                 }
             }
         }
+
+        .container-aboutMe{
+            padding: 20px 80px;
+        }
     }
 }
 
@@ -194,6 +214,10 @@
                 height: 180px;
             }
         }
+
+        .container-aboutMe{
+            padding: 20px 60px;
+        }
     }
 }
 
@@ -222,6 +246,10 @@
                     }
                 }
             }
+        }
+
+        .container-aboutMe{
+            padding: 20px 40px;
         }
     }
 }
@@ -255,6 +283,10 @@
                 }
             }
         }
+
+        .container-aboutMe{
+            padding: 20px 30px;
+        }
     }
 }
 
@@ -270,6 +302,10 @@
                     }
                 }
             }
+        }
+
+        .container-aboutMe{
+            padding: 20px 15px;
         }
     }
 }
@@ -324,7 +360,7 @@
     }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 344px) {
     .container-main {
         .container-main-header {
             .icon-p {
