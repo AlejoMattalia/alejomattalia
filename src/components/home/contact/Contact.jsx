@@ -5,6 +5,7 @@ import { DarkModeContext } from "../../../context/DarkModeContext";
 import { useContext } from "react";
 import { styled } from "@mui/material/styles";
 import { LanguageContext } from "../../../context/LanguageContext";
+import pdf from "../../../pdf/AlejoCV.pdf"
 
 const CssTextField = styled(TextField)((props) => ({
   "& label.Mui-focused": {
@@ -60,14 +61,16 @@ export function Contact({ data }) {
         </motion.div>
 
         <motion.div whileTap={{ x: 50, duration: 2 }}>
-          <Button
-            variant="outlined"
-            sx={{ width: "150px" }}
-            color="secondary"
-            className="button"
-          >
-            {languageEnglish ? "Download" : "Descargar"} CV
-          </Button>
+          <a href={pdf} target="_blank" rel="noreferrer" download="AlejoMattaliaCV">
+            <Button
+              variant="outlined"
+              sx={{ width: "150px" }}
+              color="secondary"
+              className="button"
+            >
+              {languageEnglish ? "Download" : "Descargar"} CV
+            </Button>
+          </a>
         </motion.div>
       </div>
 
