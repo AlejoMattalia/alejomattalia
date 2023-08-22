@@ -332,11 +332,6 @@
     }
 }
 
-@media (max-width: 575px) {
-    .container-carrousel {
-        left: 15px;
-    }
-}
 
 @media (max-width: 575px) {
     .container-carrousel {
@@ -400,7 +395,7 @@
             gap: 8px;
 
             .container-img {
-                width: 7px;
+                width: 57px;
                 height: 57px;
 
                 img {
@@ -441,23 +436,6 @@
         position: relative;
         left: -10px;
 
-        .container-state {
-            gap: 8px;
-
-            .container-img {
-                width: 7px;
-                height: 57px;
-
-                img {
-                    width: 47px;
-                    height: 47px;
-                }
-            }
-
-            p {
-                font-size: 12px;
-            }
-        }
     }
 }
 

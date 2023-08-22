@@ -5,6 +5,7 @@ import { proyects } from "../../apis/proyects.js";
 import { useContext } from "react";
 import { DarkModeContext } from "../../context/DarkModeContext.jsx";
 import { LanguageContext } from "../../context/LanguageContext.jsx";
+import { WidthPageContext } from "../../context/WidthPageContext.jsx"
 
 export function ProyectContainer() {
   const [proyect, setProyect] = useState({});
@@ -31,13 +32,17 @@ export function ProyectContainer() {
   //Ingles
   const {languageEnglish} = useContext(LanguageContext)
 
+  //Medida del width
+  const {widthPage} = useContext(WidthPageContext);
+
   const data = {
     proyect,
     arrayTecnology,
     darkMode,
     setShowEffect,
     showEffect,
-    languageEnglish
+    languageEnglish,
+    widthPage
   };
 
   return <Proyect data={data} />;

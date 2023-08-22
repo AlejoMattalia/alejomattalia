@@ -14,7 +14,8 @@ export function Proyect({ data }) {
     darkMode,
     languageEnglish,
     setShowEffect,
-    showEffect
+    showEffect,
+    widthPage
   } = data;
 
   return (
@@ -45,7 +46,9 @@ export function Proyect({ data }) {
         <img src={proyect.img} alt="proyect" className="img-proyect" />
 
         <div className="container-data">
-          <p>{languageEnglish ? proyect.nameEnglish : proyect.nameSpanish}</p>
+          <p style={widthPage <= 540 && darkMode ? { color: "#fff" } : { color: "#000" }}>
+            {languageEnglish ? proyect.nameEnglish : proyect.nameSpanish}
+          </p>
 
           <div className="container-img">
             <div>
@@ -90,7 +93,7 @@ export function Proyect({ data }) {
             ? { border: "2px solid #333333", borderTop: "none" }
             : { border: "2px solid #e7e7e7", borderTop: "none" }
         }
-        initial={{ y:-190 }}
+        initial={{ y: -190 }}
         animate={showEffect && { y: 0, x: 0 }}
         transition={{ duration: 2 }}
       >
