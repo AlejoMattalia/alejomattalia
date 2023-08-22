@@ -52,7 +52,7 @@ export function CarouselState() {
                     whileHover={{ scale: 1.01 }}
                     style={
                       darkMode
-                        ? {border: "1px solid #2b2b2b"}
+                        ? {border: "1px solid #9c9c9c"}
                         : {border: "1px solid #d8d8d8"}
                     }
                   >

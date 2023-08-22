@@ -109,6 +109,8 @@
 
 @media (max-width: 1150px) {
     .container-proyect-background {
+        padding-top: 100px;
+
         .container-arrow-exit {
             margin-top: 30px;
             margin-left: 30px;
@@ -119,21 +121,30 @@
 
 @media (max-width: 1000px) {
     .container-proyect-background {
-        padding-bottom: 100px;
+        padding-bottom: 30px;
 
         .container-proyect {
             height: 250px;
 
-            img {
-                width: 250px;
+            .container-data {
+                width: 435px;
             }
-        }
 
-        .container-description {
-            width: 704px;
-        }
+            .container-img {
+                bottom: 0px;
 
+                img {
+                    width: 250px;
+                }
+            }
+        
     }
+
+    .container-description {
+        width: 738px;
+    }
+
+}
 }
 
 @media (max-width: 750px) {
@@ -168,7 +179,8 @@
 
 @media (max-width: 650px) {
     .container-proyect-background {
-        padding-bottom: 150px;
+        padding-bottom: 100px;
+
         .container-proyect {
             display: flex;
             height: 200px;
@@ -211,7 +223,7 @@
         padding-bottom: 100px;
 
         .container-arrow-exit {
-            margin-top: 60px;
+            margin-top: 30px;
             margin-left: 40px;
         }
 
@@ -258,7 +270,7 @@
 
 @media (max-width: 540px) {
     .container-proyect-background {
-        padding-bottom:70px;
+        padding-bottom: 0px;
 
         .container-proyect {
             display: flex;
@@ -272,7 +284,7 @@
                 width: 260px;
                 padding-top: 20px;
 
-                p{
+                p {
                     width: 300px;
                     position: absolute;
                     left: -90px;
@@ -284,7 +296,7 @@
                 .container-button {
                     // margin-top: 30px;
                     flex-direction: column !important;
-    
+
                     .button {
                         width: 93px !important;
                         font-size: 9px !important;
@@ -309,6 +321,7 @@
 
 @media (max-width: 440px) {
     .container-proyect-background {
+        padding-bottom: 40px;
 
         .container-proyect {
             display: flex;
@@ -322,17 +335,11 @@
                 width: 200px;
                 padding-top: 20px;
 
-                p{
-                    display: none;
-                    position: absolute;
-                    left: 0px;
-                    top: 0px;
-                    bottom: 0;
-                    right: 0;
-                    margin: auto;
+                p {
+                    left: -130px;
                 }
 
-                .container-img{
+                .container-img {
                     gap: 5px;
                 }
 
@@ -350,7 +357,7 @@
             height: auto;
             padding: 5px;
 
-            .description{
+            .description {
                 font-size: 15px;
             }
 
@@ -371,7 +378,11 @@
             }
 
             .container-data {
-                width: 175px;   
+                width: 175px;
+
+                p {
+                    left: -135px;
+                }
             }
         }
 
@@ -389,7 +400,7 @@
             }
 
             .container-data {
-                width: 165px;   
+                width: 165px;
             }
         }
 
