@@ -13,7 +13,7 @@ export const proyects = [
         descriptionEnglish: "Mattalia excels in cleaning products. We offer solutions for both home and workplace, ranging from general cleaners to specialized items. Our products are effective and of high quality. The Mattalia platform is user-friendly and environmentally friendly. Trust us to keep your space clean and organized."
     },
     {
-        id: 1,
+        id: 2,
         img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692140596/porfolio/sabordivino_bqu4wi.png",
         nameSpanish: "Sabor Divino - e-commerce de vinos",
         nameEnglish: "Divine Flavor - Wine E-commerce",
@@ -27,7 +27,7 @@ export const proyects = [
         descriptionEnglish: "The project is a e-commerce platform for wines. Users can search for wines by name or type, access detailed information about each product, and use a shopping cart. The platform is designed to be intuitive and accessible across various devices, providing an efficient and comfortable shopping experience for wine enthusiasts."
     },
     {
-        id: 2,
+        id: 3,
         img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691559013/calculadora_ontfpy.png",
         nameSpanish: "Calculadora",
         nameEnglish: "Calculator",
@@ -42,7 +42,7 @@ export const proyects = [
         descriptionEnglish: "The basic operations calculator is a functional tool designed to perform simple mathematical calculations. It offers the essential functions of addition, subtraction, multiplication, and division. Users can input the corresponding numbers and obtain the results of the operations instantly."
     },
     {
-        id: 3,
+        id: 4,
         img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691591415/galeriaImagen_m9iueq.png",
         nameSpanish: "Galeria de imágenes",
         nameEnglish: "Gallery of Images",
@@ -57,7 +57,7 @@ export const proyects = [
         descriptionEnglish: "Our platform offers a array of images across categories like nature, architecture, food, travel, animals, people, technology, sports, and events. Users can select their favorite images, saving them in favorites. They also have the option to remove images from their collection. A way to collect images."
     },
     {
-        id: 4,
+        id: 5,
         img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691607738/biblioteca_ffo5cg.png",
         nameSpanish: "Biblioteca - e-commerce de libros",
         nameEnglish: "Library - e-commerce of books",
@@ -72,7 +72,7 @@ export const proyects = [
         descriptionEnglish: "Online library, where there is a variety of literary genres. You can filter according to your preferences. Access the details of each book with a simple click, organize your selections using the cart, and find specific books quickly through our efficient search engine. Enjoy a seamless experience thanks to our adaptable and user-friendly interface."
     },
     {
-        id: 5,
+        id: 6,
         img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691591430/markamueble_op8knv.png",
         nameSpanish: "Markamueble - diseño e-commerce",
         nameEnglish: "MarkaMueble - E-Commerce Design",
@@ -86,7 +86,7 @@ export const proyects = [
         descriptionEnglish: "The page displays a dynamic carousel highlighting the products. You can explore among different furniture genres and access specific pages to obtain complete details. The project's concept is to achieve an appealing design for an e-commerce platform, which is also fully adaptable to various devices (responsive)."
     },
     {
-        id: 6,
+        id: 7,
         img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691591750/perfume_lbcit2.png",
         nameSpanish: "Perfume - diseño",
         nameEnglish: "Perfume - Design",
