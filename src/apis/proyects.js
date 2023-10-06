@@ -1,6 +1,19 @@
 export const proyects = [
     {
         id: 1,
+        img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1696542793/articuloLimpiezMattalia_dupq80.png",
+        nameSpanish: "Articulos de limpieza - Mattalia",
+        nameEnglish: "Divine Flavor - Wine E-commerce",
+        technologies: [
+            "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691077027/porfolio/React-icon.svg_ttuq32.png",
+            "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692138346/firebase_logo_icon_171157_vkonkj.png"
+        ],
+        deploy: "https://articulos-limpiez-mattalia.vercel.app/",
+        descriptionSpanish: "Mattalia se destaca en productos de limpieza. Ofrecemos soluciones para hogar y trabajo, desde limpiadores generales hasta artículos especializados. Nuestros productos son efectivos y de alta calidad. La plataforma Mattalia es fácil de usar y respetuosa con el medio ambiente. Confía en nosotros para mantener tu espacio limpio y ordenado.",
+        descriptionEnglish: "Mattalia excels in cleaning products. We offer solutions for both home and workplace, ranging from general cleaners to specialized items. Our products are effective and of high quality. The Mattalia platform is user-friendly and environmentally friendly. Trust us to keep your space clean and organized."
+    },
+    {
+        id: 1,
         img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692140596/porfolio/sabordivino_bqu4wi.png",
         nameSpanish: "Sabor Divino - e-commerce de vinos",
         nameEnglish: "Divine Flavor - Wine E-commerce",
