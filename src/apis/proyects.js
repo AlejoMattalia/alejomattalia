@@ -81,7 +81,7 @@ export const proyects = [
             "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691075611/porfolio/css-3_1_uxhjcm.png"
         ],
         gitHub: "https://github.com/AlejoMattalia/Muebleria",
-        deploy: "https://markamueble.netlify.app/",
+        deploy: "https://markamueble.netlify.app/", 
         descriptionSpanish: "La página muestra un carrusel dinámico resaltando los productos. Pódes explorar entre distintos géneros de muebles y acceder a páginas específicas para obtener detalles completos. La idea del proyecto es lograr un diseño atractivo para un e-commerce, que además sea completamente adaptable a distintos dispositivos (responsive).",
         descriptionEnglish: "The page displays a dynamic carousel highlighting the products. You can explore among different furniture genres and access specific pages to obtain complete details. The project's concept is to achieve an appealing design for an e-commerce platform, which is also fully adaptable to various devices (responsive)."
     },
