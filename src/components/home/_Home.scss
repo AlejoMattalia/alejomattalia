@@ -1,8 +1,6 @@
-.container-home{
+.container-home {
     width: 100%;
-    padding: 40px 15% 40px 15%;
-    position: relative;
-    left: 60px;
+    padding: 40px 10% 40px 19%;
 }
 
 .container-loading-ring{
@@ -19,27 +17,11 @@
     }
 }
 
-@media(max-width: 1300px){
-    .container-home{
-        padding: 40px 15% 40px 15%;
-        left: 85px;
-    }
-}
 
-@media (max-width: 1258px){
-    .container-home{
-        padding: 40px 14% 40px 15%;
-        position: relative;
-        left: 85px;
-    }
-}
-
-@media (max-width: 1200px){
-    .container-home{
-        padding: 40px 14% 40px 15%;
-        position: relative;
-        left: 65px;
-    }
+@media (max-width: 1200px) {
+    .container-home {
+      padding: 40px 8% 40px 19%;
+   }
 }
 
 @media (max-width: 1200px){

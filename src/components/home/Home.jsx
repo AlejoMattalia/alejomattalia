@@ -1,5 +1,6 @@
 import { Header } from "./header/Header";
 import "./_Home.scss";
+// import "./Home.css"
 import { Footer } from "./footer/Footer";
 import { NavBar } from "./navBar/NavBar";
 import { MainContainer } from "./main/MainContainer";
