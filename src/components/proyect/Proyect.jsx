@@ -72,11 +72,14 @@ export function Proyect({ data }) {
               </Button>
             </a>
 
-            <a href={proyect.gitHub} target="_blank" rel="noreferrer">
-              <Button variant="outlined" color="secondary" className="button">
-                {languageEnglish ? "repository" : "Ver código"}
-              </Button>
-            </a>
+            {
+              proyect.gitHub &&
+              <a href={proyect.gitHub} target="_blank" rel="noreferrer">
+                <Button variant="outlined" color="secondary" className="button">
+                  {languageEnglish ? "repository" : "Ver código"}
+                </Button>
+              </a>
+            }
           </div>
 
           <BsArrowDownCircleFill

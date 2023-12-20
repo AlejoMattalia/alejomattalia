@@ -13,13 +13,19 @@ export const certifications = [
 
     {
         id: 3,
+        img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1703108849/porfolio/certificadoWebExperto_egamuv.jpg",
+        link: "https://drive.google.com/file/d/15-NRq5-i9GvUbkZ2FfwIuVx9L1ndAgLy/view?usp=sharing"
+    },
+
+    {
+        id: 4,
         img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691647093/conceptosProgramacion_ppo7jj.png",
         link: "https://drive.google.com/file/d/1NY0-_QY_Efw59FbhB0YCvGto4hURZmvi/view"
     },
 
     {
-        id: 4,
+        id: 5,
         img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691646533/introduucionProgramacion_ulaikj.png",
         link: "https://drive.google.com/file/d/1-cF5TLZm165WA-ebAIsP0W4JZdXbBe7y/view"
-    }
+    },
 ]

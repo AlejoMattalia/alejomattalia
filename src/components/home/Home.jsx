@@ -22,7 +22,7 @@ export function Home() {
     // Mostrar los anillos de carga durante 5 segundos
     const loadingTimer = setTimeout(() => {
       setShowLoading(false);
-    }, 2500);
+    },1000);
 
     return () => {
       clearTimeout(loadingTimer); // Limpiar el temporizador al desmontar el componente

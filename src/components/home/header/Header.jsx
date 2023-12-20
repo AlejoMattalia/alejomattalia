@@ -68,8 +68,8 @@ export function Header() {
             </p>
             <p>
               {languageEnglish
-                ? "FrontEnd Developer"
-                : "Desarrollador FrontEnd"}
+                ? "FullStack Developer"
+                : "Desarrollador FullStack"}
             </p>
             <p>{languageEnglish ? "Programming" : "Programación"}</p>
           </motion.div>
@@ -111,8 +111,8 @@ export function Header() {
           </div>
 
           <div>
-            <p>{languageEnglish ? "FrontEnd" : "Desarrollador"}</p>
-            <p>{languageEnglish ? "Developer" : "FrontEnd"}</p>
+            <p>{languageEnglish ? "FullStack" : "Desarrollador"}</p>
+            <p>{languageEnglish ? "Developer" : "FullStack"}</p>
           </div>
 
           <div>
