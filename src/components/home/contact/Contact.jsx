@@ -5,7 +5,7 @@ import { DarkModeContext } from "../../../context/DarkModeContext";
 import { useContext } from "react";
 import { styled } from "@mui/material/styles";
 import { LanguageContext } from "../../../context/LanguageContext";
-import pdf from "../../../pdf/AlejoCV.pdf"
+import pdf from "../../../pdf/CVALEJO.pdf"
 
 const CssTextField = styled(TextField)((props) => ({
   "& label.Mui-focused": {

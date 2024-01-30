@@ -84,6 +84,39 @@ export const technologies = [
 
   {
     id: 8,
+    img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1706626665/porfolio/download-removebg-preview_5_neigb7.png",
+    name: "Ruby",
+    image: [
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1706626883/porfolio/Captura_desde_2024-01-30_12-00-30_u8l81w.png",
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1706627008/porfolio/download_wfsbpm.png",
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1706627042/porfolio/images_p4g3d1.jpg"
+    ]
+  },
+
+  {
+    id: 9,
+    img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1706627294/porfolio/download-removebg-preview_6_b1dj5u.png",
+    name: "Ruby on Rails",
+    image: [
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1706627939/porfolio/download_tgrcrr.jpg",
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1706628062/porfolio/images_udhf8j.jpg",
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1706628168/porfolio/Captura_desde_2024-01-30_12-22-28_j3sjnw.png"
+    ]
+  },
+
+  {
+    id: 10,
+    img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1706628309/porfolio/images-removebg-preview_1_du0ycn.png",
+    name: "PostgreSQL",
+    image: [
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1706628473/porfolio/download_dodzjr.jpg",
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1706628630/porfolio/images_fr55y0.png",
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1706628666/porfolio/download_cxcmzc.png"
+    ]
+  },
+
+  {
+    id: 11,
     img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692216712/Git_icon.svg_rkszqn.png",
     name: "Git",
     image: [
@@ -93,7 +126,7 @@ export const technologies = [
     ]
   },
   {
-    id: 9,
+    id: 12,
     img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691078485/porfolio/github_a0mu6m.png",
     name: "GitHub",
     image: [
@@ -104,7 +137,7 @@ export const technologies = [
   },
 
   {
-    id: 10,
+    id: 13,
     img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1703107460/porfolio/download-removebg-preview_1_f7lpdm.png",
     name: "Docker",
     image: [
@@ -114,14 +147,14 @@ export const technologies = [
     ]
   },
 
-  // {
-  //   id: 8,
-  //   img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692138346/firebase_logo_icon_171157_vkonkj.png",
-  //   name: "Firebase",
-  //   image: [
-  //     "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692214691/firebase_imagen_1_rfkwii.png",
-  //     "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692215100/images_lbunzp.png",
-  //     "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692215280/firebase_imagen_2_hkao5t.png"
-  //   ]
-  // }
+  {
+    id: 8,
+    img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692138346/firebase_logo_icon_171157_vkonkj.png",
+    name: "Firebase",
+    image: [
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692214691/firebase_imagen_1_rfkwii.png",
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692215100/images_lbunzp.png",
+      "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692215280/firebase_imagen_2_hkao5t.png"
+    ]
+  }
 ];
