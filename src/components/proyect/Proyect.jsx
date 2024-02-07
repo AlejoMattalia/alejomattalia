@@ -15,7 +15,7 @@ export function Proyect({ data }) {
     languageEnglish,
     setShowEffect,
     showEffect,
-    widthPage
+    widthPage,
   } = data;
 
   return (
@@ -46,7 +46,13 @@ export function Proyect({ data }) {
         <img src={proyect.img} alt="proyect" className="img-proyect" />
 
         <div className="container-data">
-          <p style={widthPage <= 540 && darkMode ? { color: "#fff" } : { color: "#000" }}>
+          <p
+            style={
+              widthPage <= 540 && darkMode
+                ? { color: "#fff" }
+                : { color: "#000" }
+            }
+          >
             {languageEnglish ? proyect.nameEnglish : proyect.nameSpanish}
           </p>
 
@@ -62,24 +68,25 @@ export function Proyect({ data }) {
           </div>
 
           <div className="container-button">
-            <a href={proyect.deploy} target="_blank" rel="noreferrer">
-              <Button
-                variant="contained"
-                color="blackColor"
-                className="button button-deploy"
-              >
-                {languageEnglish ? "Deploy" : "Ir al sitio"}
-              </Button>
-            </a>
+            {proyect.deploy && (
+              <a href={proyect.deploy} target="_blank" rel="noreferrer">
+                <Button
+                  variant="contained"
+                  color="blackColor"
+                  className="button button-deploy"
+                >
+                  {languageEnglish ? "Deploy" : "Ir al sitio"}
+                </Button>
+              </a>
+            )}
 
-            {
-              proyect.gitHub &&
+            {proyect.gitHub && (
               <a href={proyect.gitHub} target="_blank" rel="noreferrer">
                 <Button variant="outlined" color="secondary" className="button">
                   {languageEnglish ? "repository" : "Ver código"}
                 </Button>
               </a>
-            }
+            )}
           </div>
 
           <BsArrowDownCircleFill

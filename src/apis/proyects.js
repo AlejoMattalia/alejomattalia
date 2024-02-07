@@ -1,9 +1,24 @@
 export const proyects = [
     {
         id: 1,
+        img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1707340223/porfolio/DESARROLLO_BACKEND_RED_SOCIAL_shbv7c.png",
+        nameSpanish: "Desarrollo Backend - Red Social 💻",
+        nameEnglish: "Backend Development - Social Media Platform 💻",
+        technologies: [
+            "https://res.cloudinary.com/dp0zorgdp/image/upload/v1703086515/porfolio/node-removebg-preview_bpakal.png",
+            "https://res.cloudinary.com/dp0zorgdp/image/upload/v1703106179/porfolio/download_cy0h4i.png"
+        ],
+        gitHub: "https://github.com/AlejoMattalia/red-social-backend",
+        deploy: "",
+        descriptionSpanish: "Sistema robusto que permite a los usuarios registrarse y loguearse de manera segura, así como publicar contenido y seguir a otros usuarios. Este proyecto me permitió aplicar mis habilidades en el desarrollo de backend, utilizando Node.js, y en el diseño de bases de datos con MongoDB.",
+        descriptionEnglish: "A robust system enabling users to securely register, log in, post content, and follow other users. This project allowed me to apply my skills in backend development, utilizing Node.js, and database design with MongoDB."
+    },
+
+    {
+        id: 2,
         img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1703109644/porfolio/Captura_desde_2023-12-20_19-00-29_do8sps.png",
-        nameSpanish: "Peluqueria Salvatore",
-        nameEnglish: "Salvatore Hair Salon",
+        nameSpanish: "Peluqueria Salvatore 💈",
+        nameEnglish: "Salvatore Hair Salon 💈",
         technologies: [
             "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691077027/porfolio/React-icon.svg_ttuq32.png",
             "https://res.cloudinary.com/dp0zorgdp/image/upload/v1703109857/porfolio/download-removebg-preview_2_jdytlz.png"
@@ -14,10 +29,10 @@ export const proyects = [
     },
     
     {
-        id: 2,
+        id: 3,
         img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1696542793/articuloLimpiezMattalia_dupq80.png",
-        nameSpanish: "Articulos de limpieza - Mattalia",
-        nameEnglish: "Divine Flavor - Wine E-commerce",
+        nameSpanish: "Articulos de limpieza - Mattalia 🧹",
+        nameEnglish: "Divine Flavor - Wine E-commerce 🧹",
         technologies: [
             "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691077027/porfolio/React-icon.svg_ttuq32.png",
             "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692138346/firebase_logo_icon_171157_vkonkj.png"
@@ -27,10 +42,10 @@ export const proyects = [
         descriptionEnglish: "Mattalia excels in cleaning products. We offer solutions for both home and workplace, ranging from general cleaners to specialized items. Our products are effective and of high quality. The Mattalia platform is user-friendly and environmentally friendly. Trust us to keep your space clean and organized."
     },
     {
-        id: 3,
+        id: 4,
         img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692140596/porfolio/sabordivino_bqu4wi.png",
-        nameSpanish: "Sabor Divino - e-commerce de vinos",
-        nameEnglish: "Divine Flavor - Wine E-commerce",
+        nameSpanish: "Sabor Divino - e-commerce de vinos 🍷",
+        nameEnglish: "Divine Flavor - Wine E-commerce 🍷",
         technologies: [
             "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691077027/porfolio/React-icon.svg_ttuq32.png",
             "https://res.cloudinary.com/dp0zorgdp/image/upload/v1692138346/firebase_logo_icon_171157_vkonkj.png"
@@ -41,10 +56,10 @@ export const proyects = [
         descriptionEnglish: "The project is a e-commerce platform for wines. Users can search for wines by name or type, access detailed information about each product, and use a shopping cart. The platform is designed to be intuitive and accessible across various devices, providing an efficient and comfortable shopping experience for wine enthusiasts."
     },
     {
-        id: 4,
+        id: 5,
         img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691559013/calculadora_ontfpy.png",
-        nameSpanish: "Calculadora",
-        nameEnglish: "Calculator",
+        nameSpanish: "Calculadora 🔢",
+        nameEnglish: "Calculator 🔢",
         technologies: [
             "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691078165/porfolio/html_1_bewue0.png",
             "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691075611/porfolio/css-3_1_uxhjcm.png",
@@ -56,10 +71,10 @@ export const proyects = [
         descriptionEnglish: "The basic operations calculator is a functional tool designed to perform simple mathematical calculations. It offers the essential functions of addition, subtraction, multiplication, and division. Users can input the corresponding numbers and obtain the results of the operations instantly."
     },
     {
-        id: 5,
+        id: 6,
         img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691591415/galeriaImagen_m9iueq.png",
-        nameSpanish: "Galeria de imágenes",
-        nameEnglish: "Gallery of Images",
+        nameSpanish: "Galeria de imágenes 🖼️",
+        nameEnglish: "Gallery of Images 🖼️",
         technologies: [
             "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691078165/porfolio/html_1_bewue0.png",
             "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691075611/porfolio/css-3_1_uxhjcm.png",
@@ -71,10 +86,10 @@ export const proyects = [
         descriptionEnglish: "Our platform offers a array of images across categories like nature, architecture, food, travel, animals, people, technology, sports, and events. Users can select their favorite images, saving them in favorites. They also have the option to remove images from their collection. A way to collect images."
     },
     {
-        id: 6,
+        id: 7,
         img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691607738/biblioteca_ffo5cg.png",
-        nameSpanish: "Biblioteca - e-commerce de libros",
-        nameEnglish: "Library - e-commerce of books",
+        nameSpanish: "Biblioteca - e-commerce de libros 📚",
+        nameEnglish: "Library - e-commerce of books 📚",
         technologies: [
             "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691078165/porfolio/html_1_bewue0.png",
             "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691075611/porfolio/css-3_1_uxhjcm.png",
@@ -86,10 +101,10 @@ export const proyects = [
         descriptionEnglish: "Online library, where there is a variety of literary genres. You can filter according to your preferences. Access the details of each book with a simple click, organize your selections using the cart, and find specific books quickly through our efficient search engine. Enjoy a seamless experience thanks to our adaptable and user-friendly interface."
     },
     {
-        id: 7,
+        id: 8,
         img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691591430/markamueble_op8knv.png",
-        nameSpanish: "Markamueble - diseño e-commerce",
-        nameEnglish: "MarkaMueble - E-Commerce Design",
+        nameSpanish: "Markamueble - diseño e-commerce 🪑",
+        nameEnglish: "MarkaMueble - E-Commerce Design 🪑",
         technologies: [
             "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691078165/porfolio/html_1_bewue0.png",
             "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691075611/porfolio/css-3_1_uxhjcm.png"
@@ -100,10 +115,10 @@ export const proyects = [
         descriptionEnglish: "The page displays a dynamic carousel highlighting the products. You can explore among different furniture genres and access specific pages to obtain complete details. The project's concept is to achieve an appealing design for an e-commerce platform, which is also fully adaptable to various devices (responsive)."
     },
     {
-        id: 8,
+        id: 9,
         img: "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691591750/perfume_lbcit2.png",
-        nameSpanish: "Perfume - diseño",
-        nameEnglish: "Perfume - Design",
+        nameSpanish: "Perfume - diseño 🌺",
+        nameEnglish: "Perfume - Design 🌺",
         technologies: [
             "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691078165/porfolio/html_1_bewue0.png",
             "https://res.cloudinary.com/dp0zorgdp/image/upload/v1691075611/porfolio/css-3_1_uxhjcm.png"
